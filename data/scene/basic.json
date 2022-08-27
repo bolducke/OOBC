@@ -1,0 +1,37 @@
+{
+    "meta": {
+      "ratio_pixel_unit": 8
+    },
+    "assets": {
+      "sprites": {
+        "brick": {
+          "texture": "textures/brick.png",
+          "clip": [],
+          "ratio_pixel_unit": 128
+        },
+        "solid_brick": {
+          "texture": "textures/solid_brick.png",
+          "clip": [],
+          "ratio_pixel_unit": 128
+        },
+        "ball": {
+          "texture": "textures/ball.png",
+          "clip": [],
+          "ratio_pixel_unit": 128
+        },
+        "player": {
+          "texture": "textures/player.png",
+          "clip": [],
+          "ratio_pixel_unit": 128
+        }
+      }
+    },
+    "layout": {
+      "grid": [
+        [1, 2, 1, 2, 1],
+        [1, 2, 2, 2, 1],
+        [1, 2, 3, 2, 1],
+        [-1,2, 4, 2,-1]
+        ]
+    }
+  }
