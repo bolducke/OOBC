@@ -39,7 +39,7 @@ Debuggin can be done with lldb,gdb,remedybg,etc.
 ### Assertion, Error Handling
 
 In the current version, Odin do not support exception. It doesn't seem that the author want to support this feature neither. To achieve similar result, one can use #ok_optional with a bool or an enum to return the current exception. 
-In fact, as he see it, he thinks that exception were wrong. Those should be handle as fast as possible. I was dubious at first, but by experimenting with it and #ok_optional, I saw another way to handle mistake that was eye opening.
+In fact, as he see it, he thinks that exception were wrong. Those should be handle as fast as possible. I was dubious at first, but by experimenting with it and #ok_optional, I saw another way to handle mistake. More complex program should be done to experiment with the current process.
 
 ### Conclusion
 
