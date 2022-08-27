@@ -1,4 +1,4 @@
-# Breakout Architecture-Exploration
+# Breakout Architecture-Exploration (Odin)
 
 This is a (bad) recreation of Breakout to experiment some design decision and test the language. This project is vastly overenginneer compare to normal Breakout, but it was mostly a playground to expriment with some architecture design. I only used SDL in this current project. It's missing some part, but it's grossly complete.
 
