@@ -49,7 +49,7 @@ I truly recommend one to test it and challenge his existing conception about pro
 
 ## Architecture Design
 
-My main focus was to be as flexible as possible while maintaning performance. I explore many ideas. I went from
+My main focus was to be as flexible as possible while not creating bottleneck. I explore many ideas. I went from
 
 ```odin
 package main
