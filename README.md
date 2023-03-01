@@ -49,7 +49,7 @@ I truly recommend one to test it to make their own opinion. As for me, for a rea
 
 ## Architecture Design
 
-My main focus was to be as flexible as possible while not creating bottleneck. I explore many ideas. I went from
+My main focus was to be as flexible as possible while using a different approach than standard OOP design. I went from
 
 ```odin
 package main
