@@ -1,7 +1,7 @@
 package geometry
 
 detect_intersection_cube_aac :: proc(A, B : CubeAAC($T,$D)) -> bool {
-    d := A.position - B.position;
+    d := A.position - B.position
     R := A.halfsize + B.halfsize
 
     return d.x < R.x && d.y < R.y

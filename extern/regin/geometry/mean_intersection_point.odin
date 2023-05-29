@@ -1,9 +1,7 @@
 package geometry
 
 import "core:intrinsics"
-
 import "core:math"
-
 import lag "core:math/linalg"
 
 IntersectionPoint :: struct($D: int, $T: typeid) where intrinsics.type_is_numeric(T), D > 0 {
@@ -12,7 +10,7 @@ IntersectionPoint :: struct($D: int, $T: typeid) where intrinsics.type_is_numeri
     penetration: T,
 }
 
-nearest_intersection_point_cube_aac :: proc(A,B : CubeAAC($D, $T)) -> (ip: IntersectionPoint(D, T), ok: bool) where D == 2 #optional_ok {
+mean_intersection_point_cube_aac :: proc(A,B : CubeAAC($D, $T)) -> (ip: IntersectionPoint(D, T), ok: bool) where D == 2 #optional_ok {
     vec :: [D]T
 
     mid_a := centroid(A)
@@ -55,7 +53,7 @@ nearest_intersection_point_cube_aac :: proc(A,B : CubeAAC($D, $T)) -> (ip: Inter
     return ip, true
 }
 
-nearest_intersection_point_sphere_c :: proc(A,B : SphereC($D, $T)) -> (ip: IntersectionPoint(D, T), ok: bool) #optional_ok {
+mean_intersection_point_sphere_c :: proc(A,B : SphereC($D, $T)) -> (ip: IntersectionPoint(D, T), ok: bool) #optional_ok {
     vec :: [D]T
 
     separator := B.position - A.position
@@ -75,5 +73,4 @@ nearest_intersection_point_sphere_c :: proc(A,B : SphereC($D, $T)) -> (ip: Inter
     return ip, false
 }
 
-nearest_intersection_point :: proc{nearest_intersection_point_cube_aac, 
-                                   nearest_intersection_point_sphere_c}
+mean_intersection_point :: proc{mean_intersection_point_cube_aac, mean_intersection_point_sphere_c}

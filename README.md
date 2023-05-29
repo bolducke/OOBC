@@ -26,7 +26,7 @@ Odin is a new language made by Gingerbil. The language is pretty new compare to 
 
 ### External Dependencies
 
-This was a concern at first because Odin do not come with a package manager like many modern language. I am traumatized how it was hard to integrate existing library into project some time (I'm talking about you OpenCV). The main author of the language do not like package manager in general. He considered most of (or all of) them flawed. For this reason, it appear that package manager will never be supported. However, because of the current build process in Odin, with gitsubmodule, it is pretty easy to add external library!
+This was a concern at first because Odin do not come with a package manager like many modern language. I am traumatized how hard it can be to integrate existing library into project some time (I'm talking about you OpenCV). The main author of the language do not like package manager in general. He considered most of (or all of) them flawed. For this reason, it appear that package manager will never be supported. However, because of the current build process in Odin, with gitsubmodule, it is pretty easy to add external library!
 
 ### Build and Compilation
 
@@ -43,7 +43,7 @@ In fact, as he see it, he thinks that exception were wrong. Those should be hand
 
 ### Conclusion
 
-As you can see, Odin is very opionated which have his benefits and issues. In the case of Odin, I would argue that he propose interesting solutions to common issues in programming. As a very strong to point for me, I'm really happy that someone give enough reflection on the actual syntax/semantics. Most of them are coherent. It's very neat that procedure inside a function or outside keep the same syntax.
+As you can see, Odin is very opionated which have its benefits and issues. In the case of Odin, I would argue that he propose interesting solutions to common issues in programming. As a very strong to point for me, I'm really happy that someone give enough reflection on the actual syntax/semantics. Most of them are coherent. It's very neat that procedure inside a function or outside keep the same syntax.
 
 I truly recommend one to test it and challenge his existing conception about programming.
 
