@@ -12,13 +12,13 @@ You can see a breakdown of the design at [blog](https://bolducke.github.io/blog/
 * ECS-like Architecture without any framework
 * Hierarchy (Tree-Like) Relation between Entity
 * True Separation between Geometry Intersection Algorithm and Physics Computation
-    * Geometric Algorithm to Detect Collision, Intersection, Compute Centroid for a small set of "Geometry".
+    * Geometric Algorithm to Detect Collision, Intersection, and Compute Centroid for a small set of "Geometry".
     * "Advanced" Physic Sim (Based on my old Physic Engine)
         * Multiples Integrators: RK4, Explicit Euler, Semi-Implicit Euler
-        * Contact Resolution in two steps: Position Based Solver & Velocity Based Solver *(Inspired of Box2D)*
+        * Contact Resolution in two steps: Position-Based Solver & Velocity Based Solver *(Inspired of Box2D)*
 * Text/Font support
 * Affine Transform Matrix
 
 ## Credits
 
-The contact resolution solver was inspired by https://box2d.org/ works.
+The contact resolution solver was inspired by [Box2D](https://box2d.org/) works.
